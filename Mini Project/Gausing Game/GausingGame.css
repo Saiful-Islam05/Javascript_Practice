@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* Reset Code Starts */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+}
+
+/*Reset code Ends */
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 32rem;
+    height: 20rem;
+    background-color: aqua;
+    border-radius: 0.6rem;
+    padding: 1rem;
+    color: darkorchid;
+    box-shadow: 0.1rem 0.1rem 0.1rem #222, -0.1rem 0 0.1rem #222;
+    font-size: 1.2rem;
+    transition: all 0.3s;
+}
+
+.card:hover{
+    box-shadow: 0.2rem 0.2rem 0.2rem #222, -0.2rem 0 0.2rem #222;
+}
+
+.card-title{
+    text-align: center;
+    color: darkviolet;
+    margin-bottom: 1rem;
+}
+
+.form-field{
+    margin-bottom: 1rem;
+
+}
+
+input{
+    border: none;
+    border: 0.1rem solid;
+    border-radius: 0.3rem;
+    padding: 0.2rem;
+    background-color: white;
+    cursor: pointer;
+    font-size: 1.2rem;
+    width: 40%;
+}
+
+.buttons{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0.5rem;
+}
+.btn{
+    border: none;
+    border: 0.1rem solid;
+    border-radius: 0.6rem;
+    padding: 0.2rem;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-size: 1.0rem;
+}
+
+.btn:hover{
+    background-color: coral;
+}
+
+p{
+    text-align: center;
+}
+
+.large-text{
+    font-size: 1.5rem;
+    color: green;
+}
+
